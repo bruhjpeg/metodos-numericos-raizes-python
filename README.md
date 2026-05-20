@@ -3,7 +3,7 @@
 Implementações didáticas em Python dos métodos para encontrar raízes: Bisseção, Falsa Posição, Newton–Raphson e Secante.
 
 Scripts:
-- `Método da bisseção.py` — método da bisseção
+- `MetodoBissecao.py` — método da bisseção
 - `MetodoFalsaPosicao.py` — falsa posição (regula falsi)
 - `NewtonRaphson.py` — Newton–Raphson
 - `Secante.py` — método da secante
