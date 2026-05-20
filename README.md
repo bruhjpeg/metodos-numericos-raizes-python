@@ -13,7 +13,7 @@ Requisitos: Python 3.8+
 Execução:
 
 ```bash
-python "Método da bisseção.py"
+python "MetodoBissecao.py"
 python MetodoFalsaPosicao.py
 python NewtonRaphson.py
 python Secante.py
