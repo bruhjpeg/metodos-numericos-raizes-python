@@ -1,25 +1,27 @@
 # Métodos Numéricos para Raízes — Python
 
-Programa desenvolvido em Python para a disciplina de Cálculo Numérico.
+Implementações didáticas em Python dos métodos para encontrar raízes: Bisseção, Falsa Posição, Newton–Raphson e Secante.
 
-## Objetivo
-O projeto tem como objetivo encontrar raízes de funções utilizando métodos numéricos e exibir gráficos das funções analisadas.
+Scripts:
+- `Método da bisseção.py` — método da bisseção
+- `MetodoFalsaPosicao.py` — falsa posição (regula falsi)
+- `NewtonRaphson.py` — Newton–Raphson
+- `Secante.py` — método da secante
 
-## Funcionalidades
-- Plotagem de gráficos
-- Cálculo de raízes de funções
-- Comparação entre métodos numéricos
-- Interface simples para testes de funções matemáticas
+Requisitos: Python 3.8+
 
-## Métodos que podem ser implementados
-- Método da Bisseção
-- Método de Newton-Raphson
-- Método da Secante
-- Método da Falsa Posição
+Execução:
 
-## Tecnologias utilizadas
-- Python
-- NumPy
-- Matplotlib
-- SymPy
+```bash
+python "Método da bisseção.py"
+python MetodoFalsaPosicao.py
+python NewtonRaphson.py
+python Secante.py
+```
+
+Personalize a função `f(x)` e os parâmetros (intervalo, tolerância, iterações) no início de cada script.
+
+Saída: cada script imprime o histórico de iterações (quando aplicável), a raiz aproximada, `f(raiz)`, número de iterações e tempo de execução.
+
+Feito para fins didáticos — para produção, adicione validações e testes.
 
