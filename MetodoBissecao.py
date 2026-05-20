@@ -5,7 +5,6 @@ def f(x):
     #return FUNÇÃO DE TESTE
    return x**3 - 9*x + 3
 
-
 def bissecao(f, a, b, tolerancia=1e-3, max_iter=100): #EDITAR TOLERÂNCIA
     if f(a) * f(b) >= 0:
         raise ValueError(
@@ -60,3 +59,4 @@ print(f"Iterações                                          =  {n_iter}")
 print(f"Tolerância                                         =  {TOLERANCIA:.2e}")
 print(f"Tempo de execução                                  =  {tempo_ms:.4f} ms")
 print("─" * 66)
+
