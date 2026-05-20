@@ -2,11 +2,21 @@ import time
 import math
 
 def f(x):
-    return x - 1 / (1 + math.exp(-10 * x))
+
+    return (
+        1 / math.sqrt(x)
+        +
+        2 * math.log10(
+            (0.001 / 3.7)
+            +
+            (2.51 / (100000 * math.sqrt(x)))
+        )
+    )
 
 
-X0         = 0.0
-X1         = 1.0
+
+X0         = 0.01
+X1         = 0.05
 TOLERANCIA = 1e-6
 MAX_ITER   = 1000
 
