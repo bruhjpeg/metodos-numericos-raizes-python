@@ -13,7 +13,7 @@ Implementações didáticas em Python dos principais métodos numéricos para en
 
 ## Métodos Implementados
 
-### 1. Método da Bisseção
+### 1. Método da Bissecção
 **Arquivo:** `MetodoBissecao.py`
 
 **Teoria:**
@@ -81,7 +81,30 @@ x_{n+1} = x_n - f(x_n) * (x_n - x_{n-1}) / (f(x_n) - f(x_{n-1}))
 - O número total de interações
 - O tempo total de execução em (ms)
 
+<details>
+<summary><b>Clique para ver as saídas de cada método</b></summary>
 
+### Método da Bisseção
+<p align="center">
+  <img src="imagens/Bissecao.png" alt="Saída Bissecção" width="600"/>
+</p>
+
+### Método da Falsa Posição
+<p align="center">
+  <img src="imagens/FalsaPosicao.png" alt="Saída Falsa Posição" width="600"/>
+</p>
+
+### Método de Newton-Raphson
+<p align="center">
+  <img src="imagens/NewtonRaphson.png" alt="Saída Newton-Raphson" width="600"/>
+</p>
+
+### Método da Secante
+<p align="center">
+  <img src="imagens/Secante.png" alt="Saída Secante" width="600"/>
+</p>
+
+</details>
 
 ## Como Executar
 
