@@ -2,7 +2,9 @@
 
 > **Cálculo Numérico | Seminário 1 | UFPB — CI**  
 > Professor: Moises Dantas dos Santos
+> 
 > Alunas: Maria Vitória de Holanda, Jennifer Freire, Bruna Aquino e Gabriella Xavier
+> 
 > Curso: Engenharia da Computação
 
 ---
